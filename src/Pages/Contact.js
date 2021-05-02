@@ -1,9 +1,8 @@
 // Code adapted from Module activity and additional online resources (Glove on Youtube)
 import React, { useState } from 'react';
+import { validateEmail } from '../utils/helpers';
 
-import { validateEmail } from '../../utils/helpers';
-
-function ContactForm() {
+function Contact() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
   const [errorMessage, setErrorMessage] = useState('');
@@ -38,7 +37,7 @@ function ContactForm() {
   };
 
   return (
-    <section>
+    <section fluid={true} md={8}>
       <h1 data-testid="h1tag">Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
