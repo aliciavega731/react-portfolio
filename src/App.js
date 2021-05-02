@@ -24,9 +24,8 @@ class App extends React.Component {
         { title: 'Contact', path: '/contact'}
       ],
       home: {
-        title: "Don't stop learning",
-        subTitle: "Keep making cool things",
-        text: "Check out things I've made"
+        title: "Web Developer in training",
+        subTitle: "Check out some things I've made",
       },
       about: {
         title: "About Me",
@@ -53,7 +52,7 @@ class App extends React.Component {
             </Navbar.Collapse>
           </Navbar>
 
-          <Route path="/" exact render={() => <Home title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
+          <Route path="/" exact render={() => <Home title={this.state.home.title} subTitle={this.state.home.subTitle} />} />
           <Route path="/about" render={() => <About title={this.state.about.title} />} />
           <Route path="/contact" render={() => <Contact title={this.state.contact.title} />} />
 

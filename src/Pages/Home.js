@@ -5,7 +5,7 @@ import Hero from "../Components/Hero";
 
 function Home(props) {
   return(
-    <Hero />
+    <Hero title={props.title} subTitle={props.subTitle}/>
   );
 }
 

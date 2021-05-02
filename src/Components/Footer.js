@@ -9,7 +9,7 @@ function Footer() {
       <Container fluid={true}>
         <Row className="border-top justify-content-between p-3">
           <Col className='pd-0' md={3} sm={12}>
-            Alicia Vega
+            My React Portfolio
           </Col>
           <Col className='pd-0 d-flex justify-content-end' md={3}>
             2021
