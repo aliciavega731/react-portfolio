@@ -5,6 +5,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './App.css';
 
+import Footer from './Components/Footer'
+
 class App extends React.Component {
 
   constructor (props) {
@@ -42,11 +44,13 @@ class App extends React.Component {
               <Nav className='ml-auto'>
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/about">About</Link>
-                <Link className="nav-link" to="/Contact">Contact</Link>
+                <Link className="nav-link" to="/contact">Contact</Link>
               </Nav>
             </Navbar.Collapse>
-
           </Navbar>
+
+          <Footer/>
+
         </Container>
       </Router>
     );
