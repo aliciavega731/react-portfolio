@@ -1,8 +1,8 @@
 import React from "react";
 
-function Home() {
+function Home(props) {
   return(
-    <p>Placeholder for text</p>
+    <p>This is the homepage</p>
   );
 }
 

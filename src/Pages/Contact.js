@@ -1,8 +1,8 @@
 import React from "react";
 
-function Contact() {
+function Contact(props) {
   return(
-    <p>Placeholder for text</p>
+    <p>This is the contact page</p>
   );
 }
 

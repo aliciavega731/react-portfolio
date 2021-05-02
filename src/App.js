@@ -7,7 +7,9 @@ import './App.css';
 
 // My files
 import Footer from './Components/Footer';
-import Home from './Pages/Home'
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
 
 class App extends React.Component {
 

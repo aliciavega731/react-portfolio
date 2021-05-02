@@ -1,8 +1,8 @@
 import React from "react";
 
-function About() {
+function About(props) {
   return(
-    <p>Placeholder for text</p>
+    <p>Learn about me</p>
   );
 }
 
