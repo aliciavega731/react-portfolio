@@ -12,7 +12,7 @@ function Footer() {
             Alicia Vega
           </Col>
           <Col className='pd-0 d-flex justify-content-end' md={3}>
-            Page created by Alicia Vega
+            2021
           </Col>
         </Row>
       </Container>
