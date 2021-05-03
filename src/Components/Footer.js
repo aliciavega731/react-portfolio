@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 function Footer() {
-  return (
+  return(
     <footer className="fixed-bottom mt-5">
       <Container fluid={true}>
         <Row className="border-top justify-content-between p-3">

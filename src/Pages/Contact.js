@@ -1,9 +1,12 @@
 // Code adapted from Module activity and additional online resources (Glove on Youtube)
 import React from "react";
 import { Form, Col, Button } from "react-bootstrap";
+import Hero from "../Components/Hero";
 
 function Contact(props) {
   return (
+    <div>
+    <Hero title={props.title} />
     <Form>
       <Form.Row>
         <Col>
@@ -28,6 +31,7 @@ function Contact(props) {
         Send email.
       </Button>
     </Form>
+    </div>
   );
 }
 
