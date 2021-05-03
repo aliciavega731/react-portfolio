@@ -6,7 +6,6 @@ function About(props) {
   return (
     <div>
       <Hero title={props.title} />
-
       <Content>
         <p>
           Hello, my name is Alicia Vega. I'm currently attending the University of
@@ -28,6 +27,8 @@ function About(props) {
             on Github.
           </a>
         </p>
+
+        <a href="/Resume-2021.pdf">My Resume</a>
       </Content>
     </div>
   );
