@@ -5,7 +5,7 @@ import Hero from "../Components/Hero";
 
 function Contact(props) {
   return (
-    <div>
+    <div fluid="md">
     <Hero title={props.title} />
     <Form>
       <Form.Row>
