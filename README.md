@@ -36,7 +36,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Links
 
-Deployed application: https://vast-temple-57557.herokuapp.com/
+Deployed application: https://vast-temple-57557.herokuapp.com/ <br>
 Github Repo: https://github.com/aliciavega731/react-portfolio
 
 ## Questions
